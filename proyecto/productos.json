@@ -1,18 +1,17 @@
 [
     {
-        "nombre" : "ddl san ignacio",
-        "fecha_vencimiento" : "2025-04-28",
+        "nombre": "ddl san ignacio",
+        "fecha_vencimiento": "2025-04-28",
         "sucursal": "coto castro barros"
     },
     {
-        "nombre" : "ddl san ignacio",
-        "fecha_vencimiento" : "2025-04-28",
+        "nombre": "ddl san ignacio",
+        "fecha_vencimiento": "2025-04-28",
         "sucursal": "coto abasto"
     },
-
     {
-        "nombre" : "lev calsa masa madre",
-        "fecha_vencimiento" : "2025-04-30",
+        "nombre": "lev calsa masa madre",
+        "fecha_vencimiento": "2025-04-30",
         "sucursal": "coto avellaneda"
     }
 ]
