@@ -26,6 +26,4 @@ def enviar_alerta (mensaje, asunto='Alerta de vencimiento'):
         print(f'Error al enviar correo : {e}')
 
 
-print("Email cargado:", EMAIL)
-print("Password cargado:", PASSWORD[:4], "***")  # Solo muestra los primeros 4 caracteres por seguridad
 
