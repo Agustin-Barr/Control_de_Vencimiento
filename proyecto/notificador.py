@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 from dotenv import load_dotenv
 
 ##Para empezar cargo los datos del .env
-load_dotenv()
+load_dotenv(dotenv_path='credenciales.env')
 #Cargando el .env , tomo las variables guardadas en el 
 EMAIL = os.getenv('EMAIL')
 PASSWORD = os.getenv('PASSWORD')
@@ -26,4 +26,6 @@ def enviar_alerta (mensaje, asunto='Alerta de vencimiento'):
         print(f'Error al enviar correo : {e}')
 
 
+print("Email cargado:", EMAIL)
+print("Password cargado:", PASSWORD[:4], "***")  # Solo muestra los primeros 4 caracteres por seguridad
 

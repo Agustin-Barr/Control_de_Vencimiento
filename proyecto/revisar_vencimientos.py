@@ -1,5 +1,6 @@
 import json 
 from  datetime import datetime, timedelta
+from notificador import enviar_alerta
 # Comienzo a leer prodcutos.json y los agrego en una variable
 with open ('productos.json', 'r', encoding='utf-8') as vencimientos:
     productos = json.load(vencimientos)
@@ -20,5 +21,9 @@ for producto in productos:#recolecto los datos de la variable productos
     dias_restante = (fecha_venc - hoy).days
     #chekeo si se cumple la fecha de vto o no 
     if dias_restante<= 15: 
-        print(f'ALERTA {nombre} | Vence en  {dias_restante}  | en {sucursal}')
+        mensaje = f'ALERTA {nombre} | Vence en  {dias_restante}  | en {sucursal}'
+        print(mensaje)
+        enviar_alerta(mensaje)
+
+
     
