@@ -1,4 +1,3 @@
-Descripción general
 Control de Vencimientos es una herramienta desarrollada en Python que permite automatizar el monitoreo de fechas de vencimiento de productos.
 El sistema detecta productos que están por vencer en un plazo de 15 días o menos y envía automáticamente una notificación por correo electrónico a la dirección configurada.
 
